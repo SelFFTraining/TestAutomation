@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test name="TestForFirefox">
+    
+ 	<parameter name="Browser" value="firefox" />  
+ 	     <classes>
+      <class name="TestCases.Practice"/>
+    </classes>
+ 	
+  </test> <!-- Test -->
+  
+  
+    <test name="TestForChrome">
+ 	<parameter name="Browser" value="chrome" />  
+ 	       <classes>
+      <class name="TestCases.Practice"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+      <test name="TestForIe">
+ 	<parameter name="Browser" value="ie" /> 
+ 	      <classes>
+      <class name="TestCases.Practice"/>
+    </classes> 
+  </test> <!-- Test -->
+  
+ 
+</suite> <!-- Suite -->

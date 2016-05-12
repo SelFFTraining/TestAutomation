@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+  <test name="FlightTest">
+    <classes>
+      <class name="TestCases.Batch1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="TrainTest">
+    <classes>
+      <class name="TestCases.Batch1"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="BusTest">
+    <classes>
+      <class name="TestCases.Batch1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
